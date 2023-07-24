@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- This is My Website Title -->
+
+    <title>Daisy Man</title>
+
+    <!-- This is My Website Favicon -->
+
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+    <!-- This is CDN Link For Daisy UI & Tailwind -->
+
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- This Is Font Awesome Link -->
+
+    <script src="https://kit.fontawesome.com/62ee82f6a0.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+
+    <!-- Header Section -->
+
+    <header>
+
+        <!-- Navbar -->
+        <nav>
+            <div class="navbar">
+                <div class="flex-1">
+                  <a class="btn btn-outline btn-success  normal-case text-xl">Naeem Shop</a>
+                </div>
+
+                <div>
+
+                  <div class="join">
+                    <input class="input input-bordered join-item" placeholder="Type Your Email"/>
+                    <button class="btn join-item rounded-r-full">Subscribe</button>
+                  </div>
+                  
+                </div>
+
+
+                <div class="flex-none">
+                  <div class="dropdown dropdown-end">
+                    <label tabindex="0" class="btn btn-ghost btn-circle">
+                      <div class="indicator">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+                        <span class="badge badge-sm indicator-item">8</span>
+                      </div>
+                    </label>
+                    <div tabindex="0" class="mt-3 z-[1] card card-compact dropdown-content w-52 bg-base-100 shadow">
+                      <div class="card-body">
+                        <span class="font-bold text-lg">8 Items</span>
+                        <span class="text-info">Subtotal: $999</span>
+                        <div class="card-actions">
+                          <button class="btn btn-primary btn-block">View cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dropdown dropdown-end">
+                    <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+                      <div class="w-10 rounded-full">
+                        <img src="./images/avatar.png" />
+                      </div>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li>
+                        <a class="justify-between">
+                          Profile
+                          <span class="badge">New</span>
+                        </a>
+                      </li>
+                      <li><a>Settings</a></li>
+                      <li><a>Logout</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </nav>
+
+        <!-- Hero Banner Section -->
+
+        <section>
+
+            <div 
+            
+            class="hero min-h-[calc(100vh-66px)]" 
+            
+            style="background-image: url(./images/yellow-bg.jpg);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">Hello Dear</h1>
+                    <p class="mb-5">"Discover a world of style and sophistication at our cloth Naeem shop, where fashion meets quality, and your unique expression comes to life."
+
+                      <br>
+                      <br>
+                      স্বাগতম নাঈমের শপে! এখানে আপনি পাচ্ছেন একটি বিশেষ প্রোডাক্ট সিলেকশন, যা আপনার স্টাইল ও কমফর্ট দুটির সমন্বয় করে। প্রতিটি প্রোডাক্ট আমরা বেস্ট কোয়ালিটির দিয়ে গর্ব করি, যাতে আপনি সব সময় আপনার স্বপ্নময় লুক এবং আত্মবিশ্বাসের সাথে চলাফেরা করতে পারেন। আমাদের দোকানের প্রত্যেকটি প্রোডাক্টে সময়ের প্রবাহের  সাথে পথ চলার জন্য প্রেরণা ও নির্ভরযোগ্যতা রয়েছে, যাতে আপনি সব সময় আপনার শীর্ষ অভিজ্ঞতা পান আমাদের শপ থেকে। 
+                    </p>
+                    <button class="btn">Shop Now</button>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+    </header>
+
+    <!-- This is Catagory section -->
+
+    <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
+
+      <!--   Heading  -->
+
+      <div class="text-center pb-5">
+        <h1 class="text-2xl md:text-4xl mb-2">Huge Collections</h1>
+        <p class="text-sm">"Uncover an endless array of fashion possibilities in our cloth shop, boasting a vast and diverse collection that caters to all styles, sizes, and occasions, ensuring you'll find the perfect outfit for every moment in life."</p>
+      </div>
+
+      <!-- Card Section -->
+
+      <!-- Card One -->
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+         <!-- Card One -->
+
+        <div>
+
+          <div class="card bg-base-100 shadow-xl image-full">
+            <figure><img src="./images/shoes.avif" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Shoes!</h2>
+              <p>"Experience the epitome of luxury and durability with our premium-grade shoes, designed to stand the test of time while ensuring your feet are pampered in ultimate comfort & feel your absolute best."</p>
+              <div class="card-actions justify-end">
+                <button class="btn ">Buy Now</button>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+
+         <!-- Card Two -->
+
+        <div>
+
+          <div class="card bg-base-100 shadow-xl image-full">
+            <figure><img src="./images/hoodies.avif" alt="Cloth" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Cloths!</h2>
+              <p>"Wrap yourself in the luxury of unparalleled comfort and exquisite craftsmanship with our premium selection of good quality clothes, designed to make you look and feel your absolute best."</p>
+              <div class="card-actions justify-end">
+                <button class="btn"> Buy Now</button>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+
+         <!-- Card Three -->
+
+        <div>
+
+          <div class="card bg-base-100 shadow-xl image-full">
+            <figure><img src="./images/perfume.avif" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Perfumes!</h2>
+              <p>"Discover a world of distinct fragrances that embody both class and longevity, as our good quality perfumes gracefully enhance your presence, leaving a trail of enchantment wherever you go."</p>
+              <div class="card-actions justify-end">
+                <button class="btn">Buy Now</button>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Featured Section -->
+
+    <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 my-10">
+
+      <div class="flex flex-col md:flex-row gap-10 items-center">
+
+        <!-- Div 1 Text Section -->
+
+        <div class="flex-1">
+
+          <div>
+            <h1 class="text-2xl md:text-4xl mb-2">Easy Purchase</h1>
+
+            <p>"Shop confidently and conveniently from the comfort of your home, as our website prioritizes your convenience, making it effortless to browse, select, and purchase your favorite products with a few simple steps."</p>
+          </div>
+
+
+        </div>
+
+
+        <!-- Div 2 Image Section -->
+
+        <div class="flex-1">
+
+          <img src="./images/easy-purchase.avif" alt="">
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Product Section -->
+
+    <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 my-10">
+
+      <!-- Heading -->
+
+      <div class="text-center pb-5">
+        <h1 class="text-2xl md:text-4xl mb-3">Top Products</h1>
+        <p class="text-sm">"Discover our curated selection of top products at our cloth shop, where fashion meets function to bring you the latest trends, timeless classics, and wardrobe essentials that are sure to elevate your style game."</p>
+      </div>
+
+      <!-- Cards -->
+
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+
+        
+        <!-- Card 1 -->
+
+        <div class="card  bg-base-100 shadow-xl">
+          <figure><img src="./images/elegant-businessman-shirt-wooden-desk-stack-generated-by-ai_188544-34678.avif" alt="Shirt" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Formal Shirt!</h2>
+
+            <p>"From the boardroom to the weekend soirée, our format shirts effortlessly elevate your ensemble, offering versatility and a touch of refinement that leaves a lasting impression."</p>
+
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+                <!-- Card 2 -->
+
+                <div class="card  bg-base-100 shadow-xl">
+                  <figure><img src="./images/shiny-black-leather-shoes-exude-modern-luxury-generated-by-ai_188544-36154.avif" alt="Shart" /></figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Formal Shoes!</h2>
+        
+                    <p>"Step into the realm of timeless sophistication with our formal shoes, expertly crafted to embody the perfect blend of class and comfort, ensuring you make a lasting impression at every formal occasion."
+
+                    </p>
+        
+                    <div class="card-actions justify-end">
+                      <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+
+
+                        <!-- Card 3 -->
+
+        <div class="card  bg-base-100 shadow-xl">
+          <figure><img src="./images/blue-yellow-t-shirt-wooden-hanger-generated-by-ai_188544-42185.avif" alt="Shart" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Formal T-Shirt!</h2>
+
+            <p>"Discover the ideal harmony of style and ease with our formal t-shirts, designed to make a statement with their understated elegance, offering you a refined look without compromising on comfort."
+
+            </p>
+
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+
+                <!-- Card 4 -->
+
+                <div class="card  bg-base-100 shadow-xl">
+                  <figure><img src="./images/elegant-businessman-attire-hangs-modern-closet-generated-by-ai_188544-15312.avif" alt="Shart" /></figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Casual Shirt!</h2>
+        
+                    <p>"Experience the best of both worlds with our formal casual shirts, meticulously designed to combine refined tailoring with a laid-back vibe, making them the go-to choice for versatile and polished dressing."
+
+                    </p>
+        
+                    <div class="card-actions justify-end">
+                      <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+
+
+
+      </div>
+
+
+
+    </section>
+
+    <!-- FAQ Section -->
+
+    <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 my-10">
+
+            <!-- Heading -->
+
+            <div class="text-center pb-5">
+              <h1 class="text-2xl md:text-4xl mb-4">Frequently Asked Question</h1>
+              <p class="text-sm">You Can see The Question & Answer For your inquiry About Naeem Shop</p>
+            </div>
+
+            <!-- Accordion -->
+
+            <div class="collapse collapse-plus bg-base-200 mb-2">
+              <input type="radio" name="my-accordion-3" checked="checked" /> 
+              <div class="collapse-title text-xl font-medium">
+
+                <span class="loading loading-dots loading-lg"></span>
+
+                What are the available payment options for my purchases? <br>
+
+                কি কি অপশন এভেইলেবল আছে আমার কেনাকাটার জন্য।
+              </div>
+              <div class="collapse-content"> 
+                <p>Naeem Shop offer various secure payment options, including credit/debit cards, PayPal, and other online payment methods, ensuring a convenient and safe shopping experience.
+                  <br>
+                  <br>
+                  নাঈম শপ ক্রেডিট/ডেবিট কার্ড, পেপ্যাল এবং অন্যান্য অনলাইন পেমেন্ট পদ্ধতি সহ বিভিন্ন নিরাপদ অর্থপ্রদানের বিকল্প অফার করে, একটি সুবিধাজনক এবং নিরাপদ কেনাকাটার অভিজ্ঞতা নিশ্চিত করে।
+                </p>
+              </div>
+            </div>
+
+
+            <div class="collapse collapse-plus bg-base-200 mb-2">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+
+                <span class="loading loading-dots loading-lg"></span>
+
+                How can I track my order after making a purchase?
+                <br>
+                কেনাকাটা করার পরে আমি কীভাবে আমার অর্ডার ট্র্যাক করতে পারি?
+
+              </div>
+              <div class="collapse-content"> 
+                <p>Once your order is processed and shipped, you will receive a tracking number via email. You can use this tracking number to monitor the status and estimated delivery date of your package.
+                  <br>
+                  <br>
+                  একবার আপনার অর্ডার প্রক্রিয়াকরণ এবং পাঠানো হলে, আপনি ইমেলের মাধ্যমে একটি ট্র্যাকিং নম্বর পাবেন। আপনি আপনার প্যাকেজের স্থিতি এবং আনুমানিক ডেলিভারি তারিখ নিরীক্ষণ করতে এই ট্র্যাকিং নম্বরটি ব্যবহার করতে পারেন।
+                </p>
+              </div>
+            </div>
+
+
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+
+                <span class="loading loading-dots loading-lg"></span>
+
+                Can I return or exchange items if they don't fit or meet my expectations?
+                <br>
+                আমি কি আইটেম ফেরত দিতে পারি বা বিনিময় করতে পারি যদি সেগুলি আমার প্রত্যাশা পূরণ না করে?
+              </div>
+              <div class="collapse-content"> 
+                <p>Yes, we have a hassle-free return and exchange policy. If for any reason you are not satisfied with your purchase, you can initiate a return or exchange within the specified time frame. Please refer to our Returns & Exchange page for more details.
+                  <br>
+                  <br>
+                  হ্যাঁ, আমাদের আছে ঝামেলা-মুক্ত রিটার্ন এবং বিনিময় নীতি। যদি কোনো কারণে আপনি আপনার ক্রয়ের সাথে সন্তুষ্ট না হন, আপনি নির্দিষ্ট সময়সীমার মধ্যে একটি ফেরত বা বিনিময় শুরু করতে পারেন। আরো বিস্তারিত জানার জন্য অনুগ্রহ করে আমাদের রিটার্ন এবং এক্সচেঞ্জ পৃষ্ঠা দেখুন।
+                </p>
+              </div>
+            </div>
+
+
+            <div class="collapse collapse-plus bg-base-200 my-2">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+
+                <span class="loading loading-dots loading-lg"></span>
+
+                Are your products ethically sourced and environmentally friendly?
+                <br>
+                আপনার পণ্য নৈতিকভাবে উৎস এবং পরিবেশগতভাবে বন্ধুত্বপূর্ণ?
+              </div>
+              <div class="collapse-content"> 
+                <p>Yes, we are committed to sourcing our products ethically and promoting sustainability in the fashion industry. We strive to work with suppliers who adhere to ethical practices and use eco-friendly materials wherever possible.
+                  <br>
+                  <br>
+                  হ্যাঁ, আমরা নৈতিকভাবে আমাদের পণ্যগুলি সোর্সিং এবং ফ্যাশন শিল্পে স্থায়িত্ব প্রচার করতে প্রতিশ্রুতিবদ্ধ। আমরা এমন সরবরাহকারীদের সাথে কাজ করার চেষ্টা করি যারা নৈতিক অনুশীলনগুলি মেনে চলে এবং যেখানেই সম্ভব পরিবেশ-বান্ধব উপকরণ ব্যবহার করে।
+                </p>
+              </div>
+            </div>
+
+
+            <div class="collapse collapse-plus bg-base-200 my-2">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+
+                <span class="loading loading-dots loading-lg"></span>
+
+                How do I determine my size for your clothing items?
+                <br>
+                আমি কিভাবে আপনার পোশাক আইটেম জন্য আমার আকার নির্ধারণ করতে পারি?
+              </div>
+              <div class="collapse-content"> 
+                <p>To find your correct size, we provide a comprehensive size chart on each product page. You can refer to this chart to select the appropriate size based on your measurements. If you have any doubts or need further assistance, feel free to contact our customer support team.
+                  <br>
+                  <br>
+                  আপনার সঠিক আকার খুঁজে পেতে, আমরা প্রতিটি পণ্য পৃষ্ঠায় একটি ব্যাপক আকারের চার্ট প্রদান করি। আপনার পরিমাপের উপর ভিত্তি করে উপযুক্ত আকার নির্বাচন করতে আপনি এই চার্টটি উল্লেখ করতে পারেন। আপনার যদি কোন সন্দেহ থাকে বা আরও সহায়তার প্রয়োজন হয়, তাহলে নির্দ্বিধায় আমাদের গ্রাহক সহায়তা দলের সাথে যোগাযোগ করুন।
+                </p>
+              </div>
+            </div>
+
+
+            <div class="collapse collapse-plus bg-base-200 my-2">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+
+                <span class="loading loading-dots loading-lg"></span>
+
+                Do you have a loyalty rewards program or discounts for regular customers?
+                <br>
+                আপনার কি নিয়মিত গ্রাহকদের জন্য ডিসকাউন্ট আছে?
+              </div>
+              <div class="collapse-content"> 
+                <p>Yes, we value our loyal customers and offer various rewards programs, discounts, and special promotions. You can subscribe to our newsletter or follow us on social media to stay updated on the latest offers.
+                  <br>
+                  <br>
+                  হ্যাঁ, আমরা আমাদের বিশ্বস্ত গ্রাহকদের মূল্য দিই এবং বিভিন্ন পুরষ্কার প্রোগ্রাম, ডিসকাউন্ট এবং বিশেষ প্রচার অফার করি। আপনি আমাদের নিউজলেটার সাবস্ক্রাইব করতে পারেন বা সর্বশেষ অফারগুলিতে আপডেট থাকতে সামাজিক মিডিয়াতে আমাদের অনুসরণ করতে পারেন।
+                </p>
+              </div>
+            </div>
+
+
+            <div class="collapse collapse-plus bg-base-200 my-2">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+
+                <span class="loading loading-dots loading-lg"></span>
+
+                How can I contact customer support for any inquiries or issues?
+                <br>
+                কোন অনুসন্ধান বা সমস্যার জন্য আমি কিভাবে গ্রাহক সহায়তার সাথে যোগাযোগ করতে পারি?
+              </div>
+              <div class="collapse-content"> 
+                <p>Our customer support team is available to assist you via email, phone, or live chat. You can find our contact information on the "Contact Us" page of our website.
+                  <br>
+                  <br>
+                  আমাদের গ্রাহক সহায়তা দল আপনাকে ইমেল, ফোন বা লাইভ চ্যাটের মাধ্যমে সহায়তা করার জন্য উপলব্ধ। আপনি আমাদের ওয়েবসাইটের "আমাদের সাথে যোগাযোগ করুন" পৃষ্ঠায় আমাদের যোগাযোগের তথ্য পেতে পারেন।
+                </p>
+              </div>
+            </div>
+
+
+            <div class="collapse collapse-plus bg-base-200 my-2">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+
+                <span class="loading loading-dots loading-lg"></span>
+
+                Are there any exclusive products or collections that are only available in-store?
+                <br>
+                এমন কোন পণ্য বা সংগ্রহ আছে যা শুধুমাত্র দোকানে পাওয়া যায়?
+              </div>
+              <div class="collapse-content"> 
+                <p>While most of our products are available online, we occasionally release exclusive collections or limited-edition items that may be available in-store only. You can check with our customer support or visit our physical store for more details.
+                  <br>
+                  <br>
+                  যদিও আমাদের বেশিরভাগ পণ্য অনলাইনে পাওয়া যায়, আমরা মাঝে মাঝে একচেটিয়া সংগ্রহ বা সীমিত-সংস্করণ আইটেম প্রকাশ করি যেগুলি শুধুমাত্র দোকানে উপলব্ধ হতে পারে। আপনি আমাদের গ্রাহক সহায়তার সাথে চেক করতে পারেন বা আরও বিশদ বিবরণের জন্য আমাদের শারীরিক দোকানে যেতে পারেন।
+                </p>
+              </div>
+            </div>
+
+
+            <div class="collapse collapse-plus bg-base-200 my-2">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+
+                <span class="loading loading-dots loading-lg"></span>
+
+                Can I request a custom order or personalized item?
+                <br>
+                আমি একটি কাস্টম অর্ডার বা ব্যক্তিগতকৃত আইটেম অনুরোধ করতে পারি?
+              </div>
+              <div class="collapse-content"> 
+                <p>We may be able to accommodate custom orders or personalized items depending on the request. Please contact our customer support team to discuss your specific requirements.
+                  <br>
+                  <br>
+                  আমরা অনুরোধের উপর নির্ভর করে কাস্টম অর্ডার বা ব্যক্তিগতকৃত আইটেম মিটমাট করতে সক্ষম হতে পারে। আপনার নির্দিষ্ট প্রয়োজনীয়তা আলোচনা করতে আমাদের গ্রাহক সমর্থন দলের সাথে যোগাযোগ করুন.
+                </p>
+              </div>
+            </div>
+
+    </section>
+
+<!-- Footer Section -->
+
+<footer class="footer p-10 bg-neutral text-neutral-content">
+  <div>
+    <span class="footer-title">Services</span> 
+    <a class="link link-hover">Branding</a>
+    <a class="link link-hover">Design</a>
+    <a class="link link-hover">Marketing</a>
+    <a class="link link-hover">Advertisement</a>
+  </div> 
+  <div>
+    <span class="footer-title">Naeem Shop</span> 
+    <a class="link link-hover">About us</a>
+    <a class="link link-hover">Contact</a>
+    <a class="link link-hover">Jobs</a>
+  </div> 
+  <div>
+    <span class="footer-title">Legal</span> 
+    <a class="link link-hover">Terms of use</a>
+    <a class="link link-hover">Refund policy</a>
+    <a class="link link-hover">Cookie policy</a>
+  </div>
+
+</footer>
+
+<!-- Copyright Claim -->
+
+<h1 class="text-xl text-center bg-neutral text-white">@All Copyright Reserved By Naeem 2022-2023</h1>
+
+</body>
+</html>
